@@ -1,0 +1,146 @@
+<!DOCTYPE>
+<html lang="en">
+    <head>
+        <title>Drag To Product</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="styling.css">
+    </head>
+
+<body background="images/40683.jpg" style="background-size: contain;">
+
+      <h2 id="orient"><div id="logo" onclick="location.href='https://brainule.com/';"                       class="pull-left">
+                    <img src="images/logo2.png">
+          
+                    </div>View this game in Desktop</h2>
+              
+                
+                <div id="container">
+                    <div id="logo" onclick="location.href='https://brainule.com/';" class="pull-left">
+                    <img src="images/logo2.png">
+                    </div>
+                    <div id="instruction">
+                        <b>Drag the image into the correct answer box.</b>
+                    </div>
+                  <div id="score">
+                      Score:<span id="scorevalue">0</span>
+                  </div>
+                  
+                  <div id="question">
+
+                  </div>
+                      
+          <div id="choices">
+                  <div id="box1" class="box" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                  </div>
+                  <div id="box2" class="box" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                  </div>
+                  <div id="box3" class="box" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                  </div>
+                  <div id="box4" class="box" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                  </div>
+                  <div id="box5" class="box" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                  </div>
+                  <div id="box6" class="box" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                  </div>
+                  <div id="box7" class="box" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                  </div>
+                  <div id="box8" class="box" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                  </div>
+                  <div id="box9" class="box" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                  </div>
+            
+          </div>
+                               
+            <div id="image_con">
+                <div id="leopard">
+                <img id="s1" src="images/a1.png" draggable="true" ondragstart="drag(event)">
+                <img id="s2" src="images/a2.png" draggable="true" ondragstart="drag(event)">
+                <img id="s3" src="images/a3.png" draggable="true" ondragstart="drag(event)">
+                <img id="s4" src="images/a4.png" draggable="true" ondragstart="drag(event)">
+                <img id="s5" src="images/a5.png" draggable="true" ondragstart="drag(event)">
+                <img id="s6" src="images/a6.png" draggable="true" ondragstart="drag(event)">
+                <img id="s7" src="images/a7.png" draggable="true" ondragstart="drag(event)">
+                <img id="s8" src="images/a8.png" draggable="true" ondragstart="drag(event)">
+                <img id="s9" src="images/a9.png" draggable="true" ondragstart="drag(event)">
+                </div>
+                <div id="bheem">
+                <img id="b1" src="images/c1.png" draggable="true" ondragstart="drag(event)">
+                <img id="b2" src="images/c2.png" draggable="true" ondragstart="drag(event)">
+                <img id="b3" src="images/c3.png" draggable="true" ondragstart="drag(event)">
+                <img id="b4" src="images/c4.png" draggable="true" ondragstart="drag(event)">
+                <img id="b5" src="images/c5.png" draggable="true" ondragstart="drag(event)">
+                <img id="b6" src="images/c6.png" draggable="true" ondragstart="drag(event)">
+                <img id="b7" src="images/c7.png" draggable="true" ondragstart="drag(event)">
+                <img id="b8" src="images/c8.png" draggable="true" ondragstart="drag(event)">
+                <img id="b9" src="images/c9.png" draggable="true" ondragstart="drag(event)">
+                </div>
+                <div id="bheem">
+                <img id="t1" src="images/t1.png" draggable="true" ondragstart="drag(event)">
+                <img id="t2" src="images/t2.png" draggable="true" ondragstart="drag(event)">
+                <img id="t3" src="images/t3.png" draggable="true" ondragstart="drag(event)">
+                <img id="t4" src="images/t4.png" draggable="true" ondragstart="drag(event)">
+                <img id="t5" src="images/t5.png" draggable="true" ondragstart="drag(event)">
+                <img id="t6" src="images/t6.png" draggable="true" ondragstart="drag(event)">
+                <img id="t7" src="images/t7.png" draggable="true" ondragstart="drag(event)">
+                <img id="t8" src="images/t8.png" draggable="true" ondragstart="drag(event)">
+                <img id="t9" src="images/t9.png" draggable="true" ondragstart="drag(event)">
+                </div>
+                <div id="bheem">
+                <img id="l1" src="images/eg1.png" draggable="true" ondragstart="drag(event)">
+                <img id="l2" src="images/eg2.png" draggable="true" ondragstart="drag(event)">
+                <img id="l3" src="images/eg3.png" draggable="true" ondragstart="drag(event)">
+                <img id="l4" src="images/eg4.png" draggable="true" ondragstart="drag(event)">
+                <img id="l5" src="images/eg5.png" draggable="true" ondragstart="drag(event)">
+                <img id="l6" src="images/eg6.png" draggable="true" ondragstart="drag(event)">
+                <img id="l7" src="images/eg7.png" draggable="true" ondragstart="drag(event)">
+                <img id="l8" src="images/eg8.png" draggable="true" ondragstart="drag(event)">
+                <img id="l9" src="images/eg9.png" draggable="true" ondragstart="drag(event)">
+                </div>
+                <div id="krishna">
+                <img id="k1" src="images/l1.png" draggable="true" ondragstart="drag(event)">
+                <img id="k2" src="images/l2.png" draggable="true" ondragstart="drag(event)">
+                <img id="k3" src="images/l3.png" draggable="true" ondragstart="drag(event)">
+                <img id="k4" src="images/l4.png" draggable="true" ondragstart="drag(event)">
+                <img id="k5" src="images/l5.png" draggable="true" ondragstart="drag(event)">
+                <img id="k6" src="images/l6.png" draggable="true" ondragstart="drag(event)">
+                <img id="k7" src="images/l7.png" draggable="true" ondragstart="drag(event)">
+                <img id="k8" src="images/l8.png" draggable="true" ondragstart="drag(event)">
+                <img id="k9" src="images/l9.png" draggable="true" ondragstart="drag(event)">
+                </div>
+            </div>
+            
+                    
+                        <div class="col-md-6">
+                            <div id="startreset">
+                                <b>Start Game</b>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="timeremaining">
+                                <b>Time remaining:<span id="timeremainingvalue">60</span>sec</b>
+                            </div>
+                        </div>
+                      
+                  </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js">
+    </script>
+    <script src="javascript.js">
+    </script>
+              
+        </body>
+    
+</html>
+    
